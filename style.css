@@ -1,0 +1,54 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	box-sizing: border-box;
+}
+.foto{
+	width: 350px;
+	height: 430px;
+	border-radius: 29px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0px 1px 10px 1px #000;
+	overflow: hidden;
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul{
+    text-align: center;
+}
+
+
+.deskripsi{
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    text-align: center;
+    vertical-align: auto;
+}
+
+.jenis{
+	width: 350px;
+	height: 430px;
+	border-radius: 29px;
+	position: absolute;
+	top: 110%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+}
+
+.warna{
+	width: 350px;
+	height: 430px;
+	border-radius: 29px;
+	position: absolute;
+	top: 110%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
